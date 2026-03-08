@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SQNA Stitchcraft</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f8fafc;
+color:#333;
+line-height:1.6;
+}
+
+/* HEADER */
+
+header{
+background:white;
+padding:30px;
+text-align:center;
+border-bottom:1px solid #eee;
+}
+
+header h1{
+font-family:'Playfair Display',serif;
+font-size:46px;
+color:#22c55e;
+}
+
+header p{
+color:#555;
+}
+
+/* NAV */
+
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:15px;
+background:white;
+flex-wrap:wrap;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+nav a:hover{
+color:#22c55e;
+}
+
+/* HERO */
+
+.hero{
+height:85vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?auto=format&fit=crop&w=1600&q=80");
+background-size:cover;
+background-position:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-family:'Playfair Display',serif;
+font-size:48px;
+}
+
+.hero p{
+margin-top:15px;
+font-size:20px;
+}
+
+.hero button{
+margin-top:25px;
+padding:15px 32px;
+background:#22c55e;
+border:none;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* SECTION */
+
+.section{
+max-width:1100px;
+margin:auto;
+padding:80px 20px;
+}
+
+.section h2{
+font-family:'Playfair Display',serif;
+text-align:center;
+margin-bottom:40px;
+font-size:36px;
+color:#16a34a;
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+.card h3{
+margin-bottom:10px;
+color:#16a34a;
+}
+
+/* PROCESS */
+
+.process{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+text-align:center;
+}
+
+.step{
+background:white;
+padding:25px;
+border-radius:8px;
+box-shadow:0 8px 18px rgba(0,0,0,.07);
+}
+
+/* PORTFOLIO */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* CONTACT */
+
+.contact{
+background:#f0fdf4;
+padding:60px 20px;
+text-align:center;
+}
+
+.contact h2{
+font-family:'Playfair Display',serif;
+color:#15803d;
+}
+
+.contact a{
+display:block;
+margin-top:10px;
+color:#166534;
+text-decoration:none;
+font-weight:500;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#22c55e;
+color:white;
+padding:15px 18px;
+border-radius:50%;
+font-size:22px;
+text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>SQNA Stitchcraft</h1>
+<p>Precision in Every Stitch</p>
+
+</header>
+
+<nav>
+
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#process">Process</a>
+<a href="#portfolio">Portfolio</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<section class="hero">
+
+<div>
+
+<h2>Professional Garment Manufacturing</h2>
+<p>Uniforms • Clothing Brands • Custom Apparel Production</p>
+
+<button onclick="location.href='#contact'">Start Your Production</button>
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+
+<h2>About SQNA Stitchcraft</h2>
+
+<p style="text-align:center;max-width:800px;margin:auto;">
+Based in Tanza, Cavite, SQNA Stitchcraft specializes in high-quality garment manufacturing for businesses, clothing brands, and organizations. 
+Founded in 2026, our mission is to provide reliable apparel production while maintaining excellent craftsmanship and attention to detail.
+
+</p>
+
+</section>
+
+<section id="services" class="section">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+
+<h3>Uniform Manufacturing</h3>
+<p>Corporate, school, and restaurant uniforms produced with durable materials and consistent quality.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Contract Sewing</h3>
+<p>Helping startup clothing brands manufacture their apparel designs.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Custom Apparel Production</h3>
+<p>T-shirts, hoodies, shorts, loungewear, and other garment production.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="process" class="section">
+
+<h2>Our Production Process</h2>
+
+<div class="process">
+
+<div class="step">Design Review</div>
+<div class="step">Sample Development</div>
+<div class="step">Fabric Cutting</div>
+<div class="step">Sewing & Assembly</div>
+<div class="step">Quality Inspection</div>
+
+</div>
+
+</section>
+
+<section id="portfolio" class="section">
+
+<h2>Our Work</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1523381294911-8d3cead13475?auto=format&fit=crop&w=900&q=80">
+
+<img src="https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg?t=st=1772969515~exp=1772973115~hmac=341017abb63640ee522b99326210f2ee08c96f15e52d2b4888021adfee5ca2e1&w=1060">
+
+<img src="https://img.freepik.com/free-photo/confident-woman-holding-trench-coat-with-smile_197531-19749.jpg?t=st=1772969749~exp=1772973349~hmac=bd5573567ac7d266eb8503de48e4133d944f529a2a51243325fc487f26498b20&w=1060">
+
+<img src="https://img.freepik.com/free-photo/clothes-hanging_1339-3159.jpg?t=st=1772969637~exp=1772973237~hmac=faba0ed2e65ab8ddb916a36282498173fd7ab33daa4d721578fc91fd4397d7a6&w=1060">
+
+<img src="https://img.freepik.com/free-photo/still-life-with-classic-shirts-hanger_23-2150828581.jpg?t=st=1772970048~exp=1772973648~hmac=ee90430e2485a90aa03b3c5a9cbf6d2152a65d360c8c2e74060858c9c2646815&w=1060">
+
+<img src="https://img.freepik.com/free-psd/fashionable-pants-isolated_23-2151336722.jpg?t=st=1772969949~exp=1772973549~hmac=abdbf05e4209b576d018c638fe4d8d896a266ee04b075d214d3729244b3d2429&w=1060">
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Start Your Production</h2>
+
+<p>Email: SQNA.stitchcraft@gmail.com</p>
+<p>Phone: 0995 245 9757</p>
+<p>Location: Tanza, Cavite Philippines, 4108</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 SQNA Stitchcraft</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/639952459757">💬</a>
+
+</body>
+</html>
